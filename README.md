@@ -5,6 +5,7 @@ A mobile application for the color-blindness to recognize color
 Software type: iOS application
 Author: F
 Time: 2016.12--2017.12
+
 ##2.Main
 ###The mobile application is aimed to recognize color in the camera of iOS devices for the color-blindness, including hypochromatopsia and achromatopsia.
 ###Function
@@ -23,6 +24,7 @@ Time: 2016.12--2017.12
 
 
 - Others:  OpenCV Library， C++, Swift Bridge Technology,  Cocoapods
+
 ##4.Algorithm
 ###Color Recognization Algorithm: Using a combination of search color range tables and kNN
 ###Details:
@@ -38,6 +40,7 @@ Time: 2016.12--2017.12
 
 
 - Second, we use the k Nearest Neighbor Algorithm. Calculate the distance from the pixel to be measured and the standard color HSV tables, and then get the nearest k standard colors. The color with the most number of color labels in the k neighbors is regarded as the color of the pixel.
+
 ##5.Advantages
 
 1. This method solves the shortcomings of traditional color classification and the method's advantages:
