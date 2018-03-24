@@ -22,8 +22,8 @@ Time: 2016.12--2017.12
 - Programming language: Swift3.0 C++ Objective-C
 
 
-- Others: OpenCV Library， C++ and Swift Bridge Technology, Cocoapods
-##Algorithm
+- Others:  OpenCV Library， C++, Swift Bridge Technology,  Cocoapods
+##4.Algorithm
 ###Color Recognization Algorithm: Using a combination of search color range tables and kNN
 ###Details:
 
@@ -38,7 +38,7 @@ Time: 2016.12--2017.12
 
 
 - Second, we use the k Nearest Neighbor Algorithm. Calculate the distance from the pixel to be measured and the standard color HSV tables, and then get the nearest k standard colors. The color with the most number of color labels in the k neighbors is regarded as the color of the pixel.
-##Advantages
+##5.Advantages
 
 1. This method solves the shortcomings of traditional color classification and the method's advantages:
 
@@ -48,17 +48,12 @@ Time: 2016.12--2017.12
 
 3. In manual acquisition of a standard color HSV table, this method can achieve camera and standard color adjustments.
 
-##Software screenshot
-
-
-
+##6.Software screenshot
 ![主页](https://upload-images.jianshu.io/upload_images/1371509-f72ea2a41c8caa09.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ![识别照片](https://upload-images.jianshu.io/upload_images/1371509-890312dbd5d06591.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ![即时相机](https://upload-images.jianshu.io/upload_images/1371509-921230c04097a2f4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
-
-
+Source code on Github
+[http://github.com/J3069/ColorRecognization](http://github.com/J3069/ColorRecognization "Soure code on Github")
