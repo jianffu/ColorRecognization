@@ -49,8 +49,13 @@ Time: 2016.12--2017.12
 3. In manual acquisition of a standard color HSV table, this method can achieve camera and standard color adjustments.
 
 ##Software screenshot
+
+
+
 ![主页](https://upload-images.jianshu.io/upload_images/1371509-f72ea2a41c8caa09.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ![识别照片](https://upload-images.jianshu.io/upload_images/1371509-890312dbd5d06591.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ![即时相机](https://upload-images.jianshu.io/upload_images/1371509-921230c04097a2f4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
