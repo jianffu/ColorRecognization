@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27366A811ED7E1370038C6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27366A6A1ED7E1370038C6E4 /* AppDelegate.swift */; };
+		27366A821ED7E1370038C6E4 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27366A6D1ED7E1370038C6E4 /* CameraManager.swift */; };
+		27366A831ED7E1370038C6E4 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27366A6E1ED7E1370038C6E4 /* cameraViewController.swift */; };
+		27366A841ED7E1370038C6E4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27366A6F1ED7E1370038C6E4 /* ImageViewController.swift */; };
+		27366A851ED7E1370038C6E4 /* ColorRecognition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27366A701ED7E1370038C6E4 /* ColorRecognition.cpp */; };
+		27366A861ED7E1370038C6E4 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27366A731ED7E1370038C6E4 /* CVWrapper.mm */; };
+		27366A871ED7E1370038C6E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27366A741ED7E1370038C6E4 /* Images.xcassets */; };
+		27366A881ED7E1370038C6E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27366A751ED7E1370038C6E4 /* Info.plist */; };
+		27366A891ED7E1370038C6E4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27366A761ED7E1370038C6E4 /* Launch Screen.storyboard */; };
+		27366A8A1ED7E1370038C6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27366A771ED7E1370038C6E4 /* Main.storyboard */; };
+		27366A8B1ED7E1370038C6E4 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27366A781ED7E1370038C6E4 /* mainViewController.swift */; };
+		27366A8C1ED7E1370038C6E4 /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27366A791ED7E1370038C6E4 /* photoViewController.swift */; };
+		27366A8D1ED7E1370038C6E4 /* stitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27366A7A1ED7E1370038C6E4 /* stitching.cpp */; };
+		27366A8E1ED7E1370038C6E4 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27366A7D1ED7E1370038C6E4 /* UIImage+OpenCV.mm */; };
+		27366A8F1ED7E1370038C6E4 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27366A7F1ED7E1370038C6E4 /* UIImage+Rotate.m */; };
+		27366A921ED7E1C50038C6E4 /* testData.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 27366A911ED7E1C50038C6E4 /* testData.rtf */; };
+		34FB95D9B2D089C61DF5BE00 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1269C4E98AF227B096678D38 /* Pods_____.framework */; };
+		BD349B291FA5BAA2006C902E /* SpeechSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD349B281FA5BAA2006C902E /* SpeechSynthesizer.swift */; };
+		BDF6E6491FB5E61900C1AF66 /* IntimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6E6481FB5E61900C1AF66 /* IntimeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1269C4E98AF227B096678D38 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2714B7011DF3BB0200485B19 /* 颜色识别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "颜色识别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27366A6A1ED7E1370038C6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "颜色识别/AppDelegate.swift"; sourceTree = "<group>"; };
+		27366A6C1ED7E1370038C6E4 /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		27366A6D1ED7E1370038C6E4 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		27366A6E1ED7E1370038C6E4 /* cameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cameraViewController.swift; path = "颜色识别/camera/cameraViewController.swift"; sourceTree = "<group>"; };
+		27366A6F1ED7E1370038C6E4 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = "颜色识别/camera/ImageViewController.swift"; sourceTree = "<group>"; };
+		27366A701ED7E1370038C6E4 /* ColorRecognition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorRecognition.cpp; path = "颜色识别/ColorRecognition.cpp"; sourceTree = "<group>"; };
+		27366A711ED7E1370038C6E4 /* ColorRecognition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorRecognition.hpp; path = "颜色识别/ColorRecognition.hpp"; sourceTree = "<group>"; };
+		27366A721ED7E1370038C6E4 /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVWrapper.h; path = "颜色识别/CVWrapper.h"; sourceTree = "<group>"; };
+		27366A731ED7E1370038C6E4 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVWrapper.mm; path = "颜色识别/CVWrapper.mm"; sourceTree = "<group>"; };
+		27366A741ED7E1370038C6E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "颜色识别/Images.xcassets"; sourceTree = "<group>"; };
+		27366A751ED7E1370038C6E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "颜色识别/Info.plist"; sourceTree = "<group>"; };
+		27366A761ED7E1370038C6E4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "颜色识别/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		27366A771ED7E1370038C6E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "颜色识别/Main.storyboard"; sourceTree = "<group>"; };
+		27366A781ED7E1370038C6E4 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainViewController.swift; path = "颜色识别/mainViewController.swift"; sourceTree = "<group>"; };
+		27366A791ED7E1370038C6E4 /* photoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = photoViewController.swift; path = "颜色识别/photoViewController.swift"; sourceTree = "<group>"; };
+		27366A7A1ED7E1370038C6E4 /* stitching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stitching.cpp; path = "颜色识别/stitching.cpp"; sourceTree = "<group>"; };
+		27366A7B1ED7E1370038C6E4 /* stitching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stitching.h; path = "颜色识别/stitching.h"; sourceTree = "<group>"; };
+		27366A7C1ED7E1370038C6E4 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OpenCV.h"; path = "颜色识别/UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		27366A7D1ED7E1370038C6E4 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "UIImage+OpenCV.mm"; path = "颜色识别/UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		27366A7E1ED7E1370038C6E4 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Rotate.h"; path = "颜色识别/UIImage+Rotate.h"; sourceTree = "<group>"; };
+		27366A7F1ED7E1370038C6E4 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Rotate.m"; path = "颜色识别/UIImage+Rotate.m"; sourceTree = "<group>"; };
+		27366A911ED7E1C50038C6E4 /* testData.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = testData.rtf; path = "颜色识别/testData.rtf"; sourceTree = "<group>"; };
+		27611E0B1E224FF70093E917 /* 颜色识别-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "颜色识别-Bridging-Header.h"; sourceTree = "<group>"; };
+		609B49BEDC516BF667665C32 /* Pods-颜色识别.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-颜色识别.release.xcconfig"; path = "Pods/Target Support Files/Pods-颜色识别/Pods-颜色识别.release.xcconfig"; sourceTree = "<group>"; };
+		B1AEE4740BDA7D66B6076E1E /* Pods-颜色识别.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-颜色识别.debug.xcconfig"; path = "Pods/Target Support Files/Pods-颜色识别/Pods-颜色识别.debug.xcconfig"; sourceTree = "<group>"; };
+		BD349B281FA5BAA2006C902E /* SpeechSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechSynthesizer.swift; path = "颜色识别/voice/SpeechSynthesizer.swift"; sourceTree = "<group>"; };
+		BDF6E6481FB5E61900C1AF66 /* IntimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntimeViewController.swift; path = "颜色识别/IntimeViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2714B6FE1DF3BB0200485B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FB95D9B2D089C61DF5BE00 /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2714B6F81DF3BB0200485B19 = {
+			isa = PBXGroup;
+			children = (
+				27366A691ED7E0F80038C6E4 /* ColorRec */,
+				27611E0B1E224FF70093E917 /* 颜色识别-Bridging-Header.h */,
+				F6DB98ECB3ECA5A2BD29458E /* Pods */,
+				3F6A7E5A48247024CD392E43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2714B7021DF3BB0200485B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2714B7011DF3BB0200485B19 /* 颜色识别.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27366A691ED7E0F80038C6E4 /* ColorRec */ = {
+			isa = PBXGroup;
+			children = (
+				BD349B271FA5B9B6006C902E /* voice */,
+				27366A6A1ED7E1370038C6E4 /* AppDelegate.swift */,
+				27366A6B1ED7E1370038C6E4 /* camera */,
+				27366A931ED7E2020038C6E4 /* photo */,
+				27366A941ED7E2BB0038C6E4 /* ViewController */,
+				27366A711ED7E1370038C6E4 /* ColorRecognition.hpp */,
+				27366A701ED7E1370038C6E4 /* ColorRecognition.cpp */,
+				27366A911ED7E1C50038C6E4 /* testData.rtf */,
+				2714B7021DF3BB0200485B19 /* Products */,
+				27366A771ED7E1370038C6E4 /* Main.storyboard */,
+				27366A761ED7E1370038C6E4 /* Launch Screen.storyboard */,
+				27366A751ED7E1370038C6E4 /* Info.plist */,
+				27366A741ED7E1370038C6E4 /* Images.xcassets */,
+			);
+			name = ColorRec;
+			sourceTree = "<group>";
+		};
+		27366A6B1ED7E1370038C6E4 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				27366A6C1ED7E1370038C6E4 /* CameraManager.h */,
+				27366A6D1ED7E1370038C6E4 /* CameraManager.swift */,
+			);
+			name = camera;
+			path = "颜色识别/camera";
+			sourceTree = "<group>";
+		};
+		27366A931ED7E2020038C6E4 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				27366A7B1ED7E1370038C6E4 /* stitching.h */,
+				27366A7A1ED7E1370038C6E4 /* stitching.cpp */,
+				27366A721ED7E1370038C6E4 /* CVWrapper.h */,
+				27366A731ED7E1370038C6E4 /* CVWrapper.mm */,
+				27366A7C1ED7E1370038C6E4 /* UIImage+OpenCV.h */,
+				27366A7D1ED7E1370038C6E4 /* UIImage+OpenCV.mm */,
+				27366A7E1ED7E1370038C6E4 /* UIImage+Rotate.h */,
+				27366A7F1ED7E1370038C6E4 /* UIImage+Rotate.m */,
+			);
+			name = photo;
+			sourceTree = "<group>";
+		};
+		27366A941ED7E2BB0038C6E4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27366A781ED7E1370038C6E4 /* mainViewController.swift */,
+				27366A791ED7E1370038C6E4 /* photoViewController.swift */,
+				27366A6E1ED7E1370038C6E4 /* cameraViewController.swift */,
+				27366A6F1ED7E1370038C6E4 /* ImageViewController.swift */,
+				BDF6E6481FB5E61900C1AF66 /* IntimeViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		3F6A7E5A48247024CD392E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1269C4E98AF227B096678D38 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD349B271FA5B9B6006C902E /* voice */ = {
+			isa = PBXGroup;
+			children = (
+				BD349B281FA5BAA2006C902E /* SpeechSynthesizer.swift */,
+			);
+			name = voice;
+			sourceTree = "<group>";
+		};
+		F6DB98ECB3ECA5A2BD29458E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1AEE4740BDA7D66B6076E1E /* Pods-颜色识别.debug.xcconfig */,
+				609B49BEDC516BF667665C32 /* Pods-颜色识别.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2714B7001DF3BB0200485B19 /* 颜色识别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2714B7131DF3BB0200485B19 /* Build configuration list for PBXNativeTarget "颜色识别" */;
+			buildPhases = (
+				661A69411866719F0B37B5BF /* [CP] Check Pods Manifest.lock */,
+				2714B6FD1DF3BB0200485B19 /* Sources */,
+				2714B6FE1DF3BB0200485B19 /* Frameworks */,
+				2714B6FF1DF3BB0200485B19 /* Resources */,
+				F882A20FD9DE295D4A23798D /* [CP] Embed Pods Frameworks */,
+				0D4209A39E818667CE73EF6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "颜色识别";
+			productName = "颜色识别";
+			productReference = 2714B7011DF3BB0200485B19 /* 颜色识别.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2714B6F91DF3BB0200485B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "傅建";
+				TargetAttributes = {
+					2714B7001DF3BB0200485B19 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B84TWS5WCJ;
+						DevelopmentTeamName = "建 傅 (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2714B6FC1DF3BB0200485B19 /* Build configuration list for PBXProject "颜色识别" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2714B6F81DF3BB0200485B19;
+			productRefGroup = 2714B7021DF3BB0200485B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2714B7001DF3BB0200485B19 /* 颜色识别 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2714B6FF1DF3BB0200485B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27366A921ED7E1C50038C6E4 /* testData.rtf in Resources */,
+				27366A891ED7E1370038C6E4 /* Launch Screen.storyboard in Resources */,
+				27366A881ED7E1370038C6E4 /* Info.plist in Resources */,
+				27366A871ED7E1370038C6E4 /* Images.xcassets in Resources */,
+				27366A8A1ED7E1370038C6E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4209A39E818667CE73EF6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-颜色识别/Pods-颜色识别-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661A69411866719F0B37B5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F882A20FD9DE295D4A23798D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-颜色识别/Pods-颜色识别-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2714B6FD1DF3BB0200485B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6E6491FB5E61900C1AF66 /* IntimeViewController.swift in Sources */,
+				27366A861ED7E1370038C6E4 /* CVWrapper.mm in Sources */,
+				BD349B291FA5BAA2006C902E /* SpeechSynthesizer.swift in Sources */,
+				27366A821ED7E1370038C6E4 /* CameraManager.swift in Sources */,
+				27366A8D1ED7E1370038C6E4 /* stitching.cpp in Sources */,
+				27366A8B1ED7E1370038C6E4 /* mainViewController.swift in Sources */,
+				27366A8E1ED7E1370038C6E4 /* UIImage+OpenCV.mm in Sources */,
+				27366A831ED7E1370038C6E4 /* cameraViewController.swift in Sources */,
+				27366A851ED7E1370038C6E4 /* ColorRecognition.cpp in Sources */,
+				27366A8C1ED7E1370038C6E4 /* photoViewController.swift in Sources */,
+				27366A841ED7E1370038C6E4 /* ImageViewController.swift in Sources */,
+				27366A8F1ED7E1370038C6E4 /* UIImage+Rotate.m in Sources */,
+				27366A811ED7E1370038C6E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2714B7111DF3BB0200485B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2714B7121DF3BB0200485B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2714B7141DF3BB0200485B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AEE4740BDA7D66B6076E1E /* Pods-颜色识别.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B84TWS5WCJ;
+				INFOPLIST_FILE = "颜色识别/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IPRIS.FuJian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "颜色识别-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2714B7151DF3BB0200485B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609B49BEDC516BF667665C32 /* Pods-颜色识别.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B84TWS5WCJ;
+				INFOPLIST_FILE = "颜色识别/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IPRIS.FuJian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "颜色识别-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2714B6FC1DF3BB0200485B19 /* Build configuration list for PBXProject "颜色识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2714B7111DF3BB0200485B19 /* Debug */,
+				2714B7121DF3BB0200485B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2714B7131DF3BB0200485B19 /* Build configuration list for PBXNativeTarget "颜色识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2714B7141DF3BB0200485B19 /* Debug */,
+				2714B7151DF3BB0200485B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2714B6F91DF3BB0200485B19 /* Project object */;
+}
