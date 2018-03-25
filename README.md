@@ -26,7 +26,7 @@ A mobile application for the color-blindness to recognize color
 - Programming language: Swift3.0 C++ Objective-C
 
 
-- Others:  OpenCV Library， C++, Swift Bridge Technology,  Cocoapods
+- Others:  OpenCV Library， C++ and Swift Bridge Technology,  Cocoapods
 
 ##4.Algorithm
 
